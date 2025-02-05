@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Awakening</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-background">
+            <img src="images/brewed_awakening.webp" alt="Brewed Awakening Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="hero">
+            <h1>Welcome to Brewed Awakening</h1>
+            <p>Your perfect coffee break starts here.</p>
+            <a href="#menu" class="cta-button">Check Our Menu</a>
+        </section>
+    </header>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="images/espresso.webp" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rich and bold espresso shot.</p>
+                <p class="price">$2.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/latte.webp" alt="Latte">
+                <h3>Latte</h3>
+                <p>Smooth and creamy latte.</p>
+                <p class="price">$3.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/cappucino.webp" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Frothy and delicious cappuccino.</p>
+                <p class="price">$3.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/sandwich.webp" alt="Breakfast Sandwich">
+                <h3>Breakfast Sandwich</h3>
+                <p>Hearty breakfast sandwich with eggs and bacon.</p>
+                <p class="price">$5.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/pancakes.webp" alt="Pancakes">
+                <h3>Pancakes</h3>
+                <p>Fluffy pancakes with syrup.</p>
+                <p class="price">$4.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="images/waffles.webp" alt="Waffles">
+                <h3>Waffles</h3>
+                <p>Crispy waffles with butter and syrup.</p>
+                <p class="price">$4.50</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Brewed Awakening is a cozy coffee shop dedicated to serving the finest coffee and breakfast items. Our mission is to provide a warm and welcoming environment for our customers to enjoy their favorite coffee and breakfast treats. Established in 2021, we have been committed to quality and customer satisfaction. Our baristas are highly trained and passionate about coffee, ensuring that every cup is brewed to perfection. We source our coffee beans from sustainable farms around the world, supporting fair trade practices. Our menu also includes a variety of delicious breakfast items made from fresh, locally sourced ingredients. Whether you're looking for a quick coffee to go or a place to relax and unwind, Brewed Awakening is the perfect spot. We look forward to serving you and making your day a little brighter.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="handleSubmit(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+   
+    <footer>
+        <p>&copy; 2023 Brewed Awakening. All rights reserved.</p>
+    </footer>
+</body>
+</html>
